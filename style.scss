@@ -189,66 +189,6 @@ body{
 }
 
 
-.loading-animation-container{
-  background: #10135a;
-  .loader{
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    span {
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      transition: all .5s;
-      animation: animate 2s infinite;
-      display: inline-block;
-      &:nth-child(1){
-        animation-delay: 0;
-      }
-      &:nth-child(2){
-        animation-delay: 0.1s;
-      }
-      &:nth-child(3){
-        animation-delay: 0.2s;
-      }
-      &:nth-child(4){
-        animation-delay: 0.3s;
-      }
-      &:nth-child(5){
-        animation-delay: 0.4s;
-      }
-      &:nth-child(6){
-        animation-delay: 0.5s;
-      }
-    }
-    h1{
-      font-family:arial;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
-  }
-  @keyframes animate {
-    0%{
-      border: 1px solid #fff;
-      background: transparent;
-      transform: translateY(0);
-    }
-    50%{
-      border: 1px solid #fff;
-      background: red;
-      transform: translateY(-25px);
-    }
-    100%{
-      border: 1px solid #fff;
-      background: yellow;
-      transform: translateY(0);
-    }
-  }
-}
-
 /*
   3D Card Flip
 */
@@ -354,8 +294,6 @@ body{
     }
   }
 }
-
-
 
 
 .three-text-container{
